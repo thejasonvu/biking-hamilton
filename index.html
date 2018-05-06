@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Biking Hamilton</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding-top: 28px;
+      }
+      
+      #map {
+        height:100%;
+      }
+
+      #sobiUI, #repairUI, #storeUI {
+        background-color: #fff;
+        border: 2px solid #fff;
+        border-radius: 3px;
+        box-shadow: 0 2px 6px rgba(0,0,0,.3);
+        cursor: pointer;
+        float: left;
+        margin-bottom: 22px;
+        text-align: center;
+      }
+      #sobiText, #repairText, #storeText {
+        color: rgb(25,25,25);
+        font-family: Roboto,Arial,sans-serif;
+        font-size: 15px;
+        line-height: 25px;
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+      #repairUI, #storeUI {
+        margin-left: 12px;
+      }
+
+    </style>
+  </head>
+  <body>
+      
+    <div id="map"></div>
+    
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+        <a class="navbar-brand" href="#">BikingHamilton</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Enter Location..." aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="mapstyle.js"></script>
+    <script>
+        var map;
+        var hamilton = {lat: 43.255203, lng: -79.843826};
+        var fixit = [];
+        var stores = [];
+        var markers = [];
+
+                // Adds a marker to an array.
+        function addMarkerToArray(location, map, title, array = [], icon) {
+          // Add the marker at the clicked location, and add the next-available label
+          // from the array of alphabetical characters.
+          var marker = new google.maps.Marker({
+            position: location,
+            title: title,
+            icon: icon
+          });
+          array.push(marker);
+        }
+
+        function setMapOnAll(map) {
+          for (var i = 0; i < markers.length; i++) {
+            markers[i].setMap(map);
+          }
+        };
+
+        function resetMarkers(arrayOfMarkers){
+          console.log("resetting");
+          deleteMarkers();
+          markers = arrayOfMarkers;
+          showMarkers();
+        }
+
+        function deleteMarkers(){
+          setMapOnAll(null);
+          markers = [];
+        };
+
+        function showMarkers(){
+          setMapOnAll(map);
+        };
+
+        function CenterControl(controlDiv, map, center) {
+          // We set up a variable for this since we're adding event listeners
+          // later.
+          var control = this;
+
+          // Set the center property upon construction
+          control.center_ = center;
+          controlDiv.style.clear = 'both';
+
+          // Set CSS for the control border
+          var sobiUI = document.createElement('div');
+          sobiUI.id = 'sobiUI';
+          sobiUI.title = 'Toggle SoBi';
+          controlDiv.appendChild(sobiUI);
+
+          // Set CSS for the control interior
+          var sobiText = document.createElement('div');
+          sobiText.id = 'sobiText';
+          sobiText.innerHTML = 'SoBi';
+          sobiUI.appendChild(sobiText);
+
+          // Set CSS for the setCenter control border
+          var repairUI = document.createElement('div');
+          repairUI.id = 'repairUI';
+          repairUI.title = 'Toggle repair station visibility';
+          controlDiv.appendChild(repairUI);
+
+          // Set CSS for the control interior
+          var repairText = document.createElement('div');
+          repairText.id = 'repairText';
+          repairText.innerHTML = 'Fix-it';
+          repairUI.appendChild(repairText);
+
+          var storeUI = document.createElement('div');
+          storeUI.id = 'storeUI';
+          storeUI.title = 'Toggle Stores';
+          controlDiv.appendChild(storeUI);
+
+          var storeText = document.createElement('div');
+          storeText.id = 'storeText';
+          storeText.innerHTML = 'Stores';
+          storeUI.appendChild(storeText);
+
+          // Set up the click event listener for 'Center Map': Set the center of
+          // the map
+          // to the current center of the control.
+          sobiUI.addEventListener('click', function() {
+
+          });
+
+          // Set up the click event listener for 'Fix-it': Set the center of
+          // the control to the current center of the map.
+          repairUI.addEventListener('click', function() {
+            control.isRepairActive_ = !control.isRepairActive_;
+            console.log(control.isRepairActive_);
+            resetMarkers(getMarkerArray());
+          });
+          
+
+          storeUI.addEventListener('click', function(){
+            control.isStoreActive_ = !control.isStoreActive_;
+            resetMarkers(getMarkerArray());
+          });
+
+          var getMarkerArray = function(){
+            var markerArray = []
+            if (control.isRepairActive_) {
+              fixit.forEach(marker => {markerArray.push(marker)});
+            }
+            if (control.isStoreActive_) {
+              stores.forEach(marker => {markerArray.push(marker)});
+            }
+            return markerArray;
+          }
+        }
+
+        CenterControl.prototype.isSobiActive_ = false;
+        CenterControl.prototype.isRepairActive_ = false;
+        CenterControl.prototype.isStoreActive_ = false;
+
+        function initMap (){
+          var wrenchIcon = 'wrenchicon.svg'
+          map = new google.maps.Map(document.getElementById("map"), {
+            center: hamilton,
+            zoom: 13
+          });
+
+          var bikeLayer = new google.maps.BicyclingLayer();
+          bikeLayer.setMap(map);
+
+          var centerControlDiv = document.createElement('div');
+          var centerControl = new CenterControl(centerControlDiv, map, hamilton);
+
+          centerControlDiv.index = 1;
+          centerControlDiv.style['padding-top'] = '10px';
+          map.controls[google.maps.ControlPosition.TOP_CENTER].push(centerControlDiv);
+
+          fetch('http://127.0.0.1/biking/fixit.json')
+              .then((resp) => resp.json()) // Transform the data into json
+              .then(function(data) {
+                data.forEach(element => {
+                  addMarkerToArray({lat: element.LATITUDE, lng: element.LONGITUDE}, map, element.NAME, fixit, wrenchIcon);
+                });
+              });
+          
+          fetch('https://maps.googleapis.com/maps/api/place/textsearch/json?key=AIzaSyDd4V1qWB3XpCcDp-O62X8yxg5-41vi0as&query=bike%20stores%20near%20hamilton,%20ON')
+              .then((resp) => resp.json())
+              .then(function(data) {
+                var storeData = data.results;
+                storeData.forEach(store => {
+                  addMarkerToArray(store.geometry.location, map, store.name, stores);
+                })
+              });
+        };
+
+      
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDd4V1qWB3XpCcDp-O62X8yxg5-41vi0as&callback=initMap" async defer></script>
+  </body>
+</html>

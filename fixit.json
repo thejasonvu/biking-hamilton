@@ -1,0 +1,32 @@
+[
+  {
+    "NAME": "York Ave",
+    "LONGITUDE": -79.869519,
+    "LATITUDE": 43.258998
+  },
+  {
+    "NAME": "Bayfront Park",
+    "LONGITUDE": -79.871459,
+    "LATITUDE": 43.269079
+  },
+  {
+    "NAME": "Locke St",
+    "LONGITUDE": -79.886113,
+    "LATITUDE": 43.254597
+  },
+  {
+    "NAME": "Lifesaver Park",
+    "LONGITUDE": -79.84861,
+    "LATITUDE": 43.24532
+  },
+  {
+    "NAME": "Gage Park",
+    "LONGITUDE": -79.83144,
+    "LATITUDE": 43.24079
+  },
+  {
+    "NAME": "McMaster University",
+    "LONGITUDE": -79.91901,
+    "LATITUDE": 43.262803
+  }
+]
