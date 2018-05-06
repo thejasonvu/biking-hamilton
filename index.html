@@ -231,7 +231,7 @@
                 });
               });
           
-          fetch('https://maps.googleapis.com/maps/api/place/textsearch/json?key=AIzaSyDd4V1qWB3XpCcDp-O62X8yxg5-41vi0as&query=bike%20stores%20near%20hamilton,%20ON')
+          fetch('https://raw.githubusercontent.com/thejasonvu/biking-hamilton/master/stores.json')
               .then((resp) => resp.json())
               .then(function(data) {
                 var storeData = data.results;
