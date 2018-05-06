@@ -29,6 +29,10 @@
         margin-bottom: 22px;
         text-align: center;
       }
+      #sobiUI:hover, #repairUI:hover, #storeUI:hover {
+        background-color: lightgray;
+        border-color: lightgray;
+      }
       #sobiText, #repairText, #storeText {
         color: rgb(25,25,25);
         font-family: Roboto,Arial,sans-serif;
@@ -47,7 +51,7 @@
       
     <div id="map"></div>
     
-    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-success">
         <a class="navbar-brand" href="index.html">BikingHamilton</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -64,7 +68,7 @@
           </ul>
           <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="search" placeholder="Enter Location..." aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
           </form>
         </div>
       </nav>
@@ -82,14 +86,20 @@
         var markers = [];
 
                 // Adds a marker to an array.
-        function addMarkerToArray(location, map, title, array = [], icon) {
+        function addMarkerToArray(location, map, title, array = [], label, infoDiv) {
           // Add the marker at the clicked location, and add the next-available label
           // from the array of alphabetical characters.
           var marker = new google.maps.Marker({
             position: location,
             title: title,
-            icon: icon
+            label: label
           });
+          var infoWindow = new google.maps.InfoWindow({
+            content: infoDiv
+          });
+          marker.addListener('click', function(){
+            infoWindow.open(map,marker);
+          })
           array.push(marker);
         }
 
@@ -100,7 +110,6 @@
         };
 
         function resetMarkers(arrayOfMarkers){
-          console.log("resetting");
           deleteMarkers();
           markers = arrayOfMarkers;
           showMarkers();
@@ -169,18 +178,19 @@
           // the control to the current center of the map.
           repairUI.addEventListener('click', function() {
             control.isRepairActive_ = !control.isRepairActive_;
-            console.log(control.isRepairActive_);
+            repairText.className = repairText.className ? '' : 'text-primary';
             resetMarkers(getMarkerArray());
           });
           
 
           storeUI.addEventListener('click', function(){
             control.isStoreActive_ = !control.isStoreActive_;
+            storeText.className = storeText.className ? '' : 'text-primary';
             resetMarkers(getMarkerArray());
           });
 
           var getMarkerArray = function(){
-            var markerArray = []
+            var markerArray = [];
             if (control.isRepairActive_) {
               fixit.forEach(marker => {markerArray.push(marker)});
             }
@@ -216,7 +226,8 @@
               .then((resp) => resp.json()) // Transform the data into json
               .then(function(data) {
                 data.forEach(element => {
-                  addMarkerToArray({lat: element.LATITUDE, lng: element.LONGITUDE}, map, element.NAME, fixit, wrenchIcon);
+                  var content = `<p><span class='font-weight-bold'>${element.NAME}</span><br />Fix-It Station</p>`;
+                  addMarkerToArray({lat: element.LATITUDE, lng: element.LONGITUDE}, map, element.NAME, fixit, wrenchIcon, content);
                 });
               });
           
@@ -225,7 +236,8 @@
               .then(function(data) {
                 var storeData = data.results;
                 storeData.forEach(store => {
-                  addMarkerToArray(store.geometry.location, map, store.name, stores);
+                  var content = `<p><span class='font-weight-bold'>${store.name}</span><br />${store.formatted_address}</p>`;
+                  addMarkerToArray(store.geometry.location, map, store.name, stores, 'https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png', content);
                 })
               });
         };
