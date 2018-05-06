@@ -1,0 +1,807 @@
+{
+    "html_attributions" : [],
+    "next_page_token" : "CuQD0gEAADnbcNug6dDutxJCdpwpj8Uuic27KbkYK3w9BLM-_6AEm-0Awf47q_HYcWwielhqkTRJzeGzCHu_BuAYYx1eOpgbO91G65bnSqC7DSDBnrvk9l9Y_40GQ6yM2Qwk09UHD1nAnKKydSHcQBuNqKVgu_nuas-67Hmo8rfNXY4NOgyf6ARYuWiJ54YFVZfYYhm9w6JH8Rw7-IeqKYdY7N6bJL0_8Aui4l0mtdIOcCyG9h_AtAp8KDyeVuIbilHCMX9Uj4pQ6Dg4pE8UgOVnH8g1gtNoIthc9IkhBpRvYw895qaqwFC-PA33Ps9blEtbO7bwB-0dIYy4Zoe5njVEc7Ri_FaAY4SH5j1MHxMVr21ukFfw8QJgD9inHuvLhYxhJK01M_4zz-97a8uqq_I-fIemwgr91HFGHuLKXOnoGzWYwgh4wFW06NzSQG3OuTcWzwNf21yLVXdvJW660l2mttcFg-FayTKAnhBwAODReEc8X_DIgtJCBZ5C0VLrwXNX3lNidZMo8knzcja6zS7aKgrhUQzq_4GC2CeVsw8w1ta2JJa1iv-L8DWyMrL0AWVcL4s0wG5A0JI7M-ONw20WQgPDU-Z5I9RzW1Pp_rLTgkA5QNqypy6DjzTH9tpvsQwRlHsmFBIQaGmK4s-S_Du6KyrNSTLnYRoUHKF8h0edEq_R7KJHyWc32esbsVw",
+    "results" : [
+       {
+          "formatted_address" : "840 King St W, Hamilton, ON L8S 1K3, Canada",
+          "geometry" : {
+             "location" : {
+                "lat" : 43.2628536,
+                "lng" : -79.8994306
+             },
+             "viewport" : {
+                "northeast" : {
+                   "lat" : 43.26415002989272,
+                   "lng" : -79.89810202010729
+                },
+                "southwest" : {
+                   "lat" : 43.26145037010728,
+                   "lng" : -79.90080167989272
+                }
+             }
+          },
+          "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+          "id" : "e167b52e38c818cca19ab20ca8a0b1e544533262",
+          "name" : "Pieriks - The Bike Store",
+          "opening_hours" : {
+             "open_now" : false,
+             "weekday_text" : []
+          },
+          "photos" : [
+             {
+                "height" : 2048,
+                "html_attributions" : [
+                   "\u003ca href=\"https://maps.google.com/maps/contrib/112373251736146927040/photos\"\u003eMichael Boulos\u003c/a\u003e"
+                ],
+                "photo_reference" : "CmRaAAAAKFp9RSNsox8s5zuiysaTPT5zM88jEU7iEBol5qs69PCo01URyAlguHI3neYbJ7KIKcZoBgojkK83pGfrb2M0q1F1msEN2ovB7r4xt-g6E4C2lC9XdWexNigXJQ7sd4_7EhA4UCGMQo7ToSgwziefXSdnGhRHEa2hpIUWq8l7yiDMfqPU_H_Zag",
+                "width" : 1536
+             }
+          ],
+          "place_id" : "ChIJUwk2eV6bLIgRzSRnYrl7NpQ",
+          "rating" : 3.9,
+          "reference" : "CmRbAAAAbnKyV7JBtZ-NC8jWdF1pGkbgBBygfvmGjB6GBBpCEHYo7BNsKh0kZ7eanHaHLTmFB0UTu3vN0w_umSTzCLQCuSdzgIJsE7O5sEqvXHHjxGVJ8YqREsCc-ylmckvwYeb5EhAGesf63oguVOVrEF1YVgerGhRFj6akV7b_EJCB9puJExaM-wuUZg",
+          "types" : [ "bicycle_store", "store", "point_of_interest", "establishment" ]
+       },
+       {
+          "formatted_address" : "965 King St E, Hamilton, ON L8M 1C3, Canada",
+          "geometry" : {
+             "location" : {
+                "lat" : 43.2513429,
+                "lng" : -79.83579659999999
+             },
+             "viewport" : {
+                "northeast" : {
+                   "lat" : 43.25263612989272,
+                   "lng" : -79.83445137010729
+                },
+                "southwest" : {
+                   "lat" : 43.24993647010727,
+                   "lng" : -79.83715102989272
+                }
+             }
+          },
+          "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+          "id" : "d3b60cecc07998944f2245f75e8352efa9965bf6",
+          "name" : "Central Cycle",
+          "opening_hours" : {
+             "open_now" : false,
+             "weekday_text" : []
+          },
+          "photos" : [
+             {
+                "height" : 3024,
+                "html_attributions" : [
+                   "\u003ca href=\"https://maps.google.com/maps/contrib/105979963263390962455/photos\"\u003eA Google User\u003c/a\u003e"
+                ],
+                "photo_reference" : "CmRaAAAAqUsbYCr-E6f_B8J8h4C2pCWvWgblZtUuQiycqiFGIN-J_TcERO66UB8JwNLaD9rbbR_pPELn_TQrFxVzNg3tgE_T3-KJ_42Vym0qOGRUAsg8s_TteaUne0lKzL9_dTsyEhDOJdK6ocNICnT0mvmOrkFKGhRjvh4WZo6T83y_6rzo50D7DrhxyQ",
+                "width" : 5376
+             }
+          ],
+          "place_id" : "ChIJhTBEpOSbLIgRyXpa_e5BokE",
+          "rating" : 4.6,
+          "reference" : "CmRbAAAAfZLmGI1GvjTEd82McSCB4gHhTAWef8QifnyqD4XUT7caPPgw0Q6yCTgH957Qf8UWJNbtGGcuy_Di_89iBk0HydwntrUUokmhkvmWek_oSh91KHJCvJI3QdS76YBVt3tuEhCZeFcKRi3LQQpKTmYStUXfGhTizG6wfSPerf9eeGGBJ3tDkB9MRA",
+          "types" : [ "bicycle_store", "store", "point_of_interest", "establishment" ]
+       },
+       {
+          "formatted_address" : "19 John St N, Hamilton, ON L8R 1H1, Canada",
+          "geometry" : {
+             "location" : {
+                "lat" : 43.2565256,
+                "lng" : -79.86641329999999
+             },
+             "viewport" : {
+                "northeast" : {
+                   "lat" : 43.25785627989272,
+                   "lng" : -79.86498302010726
+                },
+                "southwest" : {
+                   "lat" : 43.25515662010728,
+                   "lng" : -79.86768267989271
+                }
+             }
+          },
+          "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+          "id" : "ff70b0b12b91889ce673bda09056e9215ea60e48",
+          "name" : "Downtown Bike Hounds",
+          "opening_hours" : {
+             "open_now" : false,
+             "weekday_text" : []
+          },
+          "photos" : [
+             {
+                "height" : 1152,
+                "html_attributions" : [
+                   "\u003ca href=\"https://maps.google.com/maps/contrib/108240802397688966711/photos\"\u003eDowntown Bike Hounds\u003c/a\u003e"
+                ],
+                "photo_reference" : "CmRaAAAAmXQ-7oiPkz9_R3CvaT5kDKChdTgVtiLd5kpdiTzQYYOpT2IAsGzJANaC6wa10DblnvpGBiaTDzSUWg25RZqnN4pEI9obsJuRji-HvtMcabmrn3uTgG28gqthWRea869cEhAPwpbyRZ-lIek5FYPbVtv2GhSI_uXXpzvOkk68f7yiTIxDTNniDQ",
+                "width" : 2048
+             }
+          ],
+          "place_id" : "ChIJmVNM4YSbLIgRaj_AXQZIkBE",
+          "rating" : 4.5,
+          "reference" : "CmRbAAAAeHMdnOtBaHFY9lQ02t7wyYBg5IMAkeQQ8bKOeJETRXwb40_1llmMJNIowEezwhxWYXFo3o8861J5DanElbHaqN_bqlGdHSZlIBfDr34xKHZX78n7xFcPi6SkAdewZr-SEhCWl_l-f06efPUQQLnz9JwCGhTSsGNMNvYeqOijy8G2KlPfx6ZF_w",
+          "types" : [ "bicycle_store", "store", "point_of_interest", "establishment" ]
+       },
+       {
+          "formatted_address" : "730 Upper James St #6 (BACK OF THE PLAZA), Hamilton, ON L9C 2Z9, Canada",
+          "geometry" : {
+             "location" : {
+                "lat" : 43.2309329,
+                "lng" : -79.88125839999999
+             },
+             "viewport" : {
+                "northeast" : {
+                   "lat" : 43.23228272989272,
+                   "lng" : -79.87990857010728
+                },
+                "southwest" : {
+                   "lat" : 43.22958307010727,
+                   "lng" : -79.88260822989272
+                }
+             }
+          },
+          "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+          "id" : "b98584234f2988f4d6d9275aece87c3a1ddf00c0",
+          "name" : "Hammer City Cycle",
+          "opening_hours" : {
+             "open_now" : false,
+             "weekday_text" : []
+          },
+          "photos" : [
+             {
+                "height" : 3024,
+                "html_attributions" : [
+                   "\u003ca href=\"https://maps.google.com/maps/contrib/117284402603447714541/photos\"\u003eJason Youngberg\u003c/a\u003e"
+                ],
+                "photo_reference" : "CmRaAAAAPNC6rG2yhXU768qQIFiqN_7OvAh_Eoxl9ky8foRPPkAJfHsHoeGt8BI8j8eteeW5UdwYf8Ffv3OrA0RcfHFMev1pUWTWUKSZckmXNebEAkJXJQTXwvHjWEwkxMDjTS5iEhDydHqVGmcxZHo5xfvR_mjmGhT7p-zswdc_KYLjnS7lHJGR0mxtyw",
+                "width" : 3024
+             }
+          ],
+          "place_id" : "ChIJheCHwwObLIgRWCnnwzE8PUk",
+          "rating" : 4.5,
+          "reference" : "CmRbAAAASrsGBCvW06WZaWpSQbVOBdmghIXfZMCO4WIvtTBp8_RH5bhgi6TAboEpDaYbfKmXDli2USSiZi-2GqDzuDrdjDHtDNorqS5bclTTA3dTr_Zjyb_1o8zxDDXe2kFsmvysEhDc-jogmyQU0YbA5logQpeOGhQBhmSy9DxcbngQxkfePCqgs7Gvqw",
+          "types" : [ "bicycle_store", "store", "point_of_interest", "establishment" ]
+       },
+       {
+          "formatted_address" : "1461 Main St E, Hamilton, ON L8K 1C5, Canada",
+          "geometry" : {
+             "location" : {
+                "lat" : 43.2399953,
+                "lng" : -79.80767109999999
+             },
+             "viewport" : {
+                "northeast" : {
+                   "lat" : 43.24129482989272,
+                   "lng" : -79.80634512010727
+                },
+                "southwest" : {
+                   "lat" : 43.23859517010728,
+                   "lng" : -79.80904477989272
+                }
+             }
+          },
+          "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+          "id" : "34f97f77b6e55d5cfb2b0fa20f83039e6a327026",
+          "name" : "Main Cycle",
+          "opening_hours" : {
+             "open_now" : false,
+             "weekday_text" : []
+          },
+          "photos" : [
+             {
+                "height" : 3744,
+                "html_attributions" : [
+                   "\u003ca href=\"https://maps.google.com/maps/contrib/108544298740590956482/photos\"\u003eA Google User\u003c/a\u003e"
+                ],
+                "photo_reference" : "CmRaAAAA9A9aJh_vGwmRsIbTYP4C9PR7WyUwkSmVC6DeAe1dzmSAsKsBqijEvy928y1nChbPIbqKsStO2J9cvBm1qUeoGOttKnwawK1CDvOslvBj5E2zxvL0CC8phUOgj7UcHDu2EhBcLXKzRfrxPpTawviFgWkUGhRyXxx9VjHPsUwR6gWDK4EyTq8K7A",
+                "width" : 5616
+             }
+          ],
+          "place_id" : "ChIJBx34qWqZLIgRwoP3NRkUirI",
+          "rating" : 4.7,
+          "reference" : "CmRbAAAAeYE0HHaqtsmZ3Dm5H4EelpEKzFGlSmwo350gaEKkl7Dr2ygMcH7GL2aetZmGqIyofababBxK9EvAIWvwo73vgnW-zq0gGZBDMQITzu_BqlUZYRiMd172T8O6H-tg1Wd0EhAwKxwl15fWIxSLVTQWDmrPGhRvq6EM-nVu0Za_yydLkPGHNl0Osg",
+          "types" : [ "bicycle_store", "store", "point_of_interest", "establishment" ]
+       },
+       {
+          "formatted_address" : "1422 Main St E, Hamilton, ON L8K 1C3, Canada",
+          "geometry" : {
+             "location" : {
+                "lat" : 43.2401766,
+                "lng" : -79.8095759
+             },
+             "viewport" : {
+                "northeast" : {
+                   "lat" : 43.24160822989272,
+                   "lng" : -79.80818857010729
+                },
+                "southwest" : {
+                   "lat" : 43.23890857010727,
+                   "lng" : -79.81088822989273
+                }
+             }
+          },
+          "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+          "id" : "32d143df1b060c7ca0dd32b366abfc7611135f71",
+          "name" : "New Hope Community Bikes",
+          "opening_hours" : {
+             "open_now" : false,
+             "weekday_text" : []
+          },
+          "photos" : [
+             {
+                "height" : 3510,
+                "html_attributions" : [
+                   "\u003ca href=\"https://maps.google.com/maps/contrib/102424804082993295721/photos\"\u003eNew Hope Community Bikes\u003c/a\u003e"
+                ],
+                "photo_reference" : "CmRaAAAAj8LQkP-lLxwO45ujjscaYTjV6i5wvutv7ulRPfz84cws8WnQ-zpxejMPhAr2ymelk5HR_qyN9GkoGwxP5A-gaa7aO6ahzz869FWV00Ud2VbrZWypBxnx1Fm-CZ9AImR3EhBD3h1qZFS7COzJAC_aiIa6GhQDtPMhihXhvbC2bvY9gXkAus78LA",
+                "width" : 5265
+             }
+          ],
+          "place_id" : "ChIJcWwOJ0CZLIgR5qYSmbzw3i0",
+          "rating" : 4.6,
+          "reference" : "CmRbAAAAFUIpt3JHkVvNEKvY7k1xUjBrmsRMGlEDDrrmZk0faIZT4gP6_MDEH2JQ2ebqHoiQwUPJRnoAbghgfbuIxW7LLrK9Mn1luh4cPZtFrvZRJf6BRGf0bnbnl0I74PCduZfBEhAqw3TEpI0eSc6TiLInguP_GhRdQKyk4ORny2ChYZ4UPHkWHfYB2g",
+          "types" : [ "bicycle_store", "store", "point_of_interest", "establishment" ]
+       },
+       {
+          "formatted_address" : "1527 Upper Ottawa St, Hamilton, ON L8W 3J4, Canada",
+          "geometry" : {
+             "location" : {
+                "lat" : 43.1932965,
+                "lng" : -79.8424644
+             },
+             "viewport" : {
+                "northeast" : {
+                   "lat" : 43.19468787989272,
+                   "lng" : -79.84132252010727
+                },
+                "southwest" : {
+                   "lat" : 43.19198822010728,
+                   "lng" : -79.84402217989272
+                }
+             }
+          },
+          "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+          "id" : "02a980d40760c0c35d4ed74ca8ce173222e90459",
+          "name" : "Scattolon Cycle & Sports",
+          "opening_hours" : {
+             "open_now" : false,
+             "weekday_text" : []
+          },
+          "photos" : [
+             {
+                "height" : 4208,
+                "html_attributions" : [
+                   "\u003ca href=\"https://maps.google.com/maps/contrib/100188259472519386014/photos\"\u003ekieran mac\u003c/a\u003e"
+                ],
+                "photo_reference" : "CmRaAAAAYUh34Jbyuh2Uk7pDhmA63ImJzm4_LQZw26pSVbUs0eriR8F2LJOl3Jbxi-3sZ94ROzYatAm7LrL9p5j-yEaMwBGwcucwXPh3nxRCBW9KkqFBayYFEdWmtVVtINCwgm0qEhCrtixmTpi-fGXy370IHDFpGhT_wjKCWy8VVoru1EmIQihaSVh9Xw",
+                "width" : 3120
+             }
+          ],
+          "place_id" : "ChIJH8XPpA-aLIgRZqo_p8Vsf_w",
+          "rating" : 2.6,
+          "reference" : "CmRbAAAAz1s4AgYUPLZeCWCghEKh_fbgglPHfABgti2pFBtaiPGleoNTWu28Dc0cpHXAOUJ4R3WCaB9kE3aWMITk7kq0uCrzDDHF0MO3gd6iwlj7DCbhm789JQvPwnnG9yjsC5XQEhDVvxzNPOU4voNHS_w2vAQ0GhTu6WFwRtP-9zD97ox9i6FjcmwZQQ",
+          "types" : [ "bicycle_store", "store", "point_of_interest", "establishment" ]
+       },
+       {
+          "formatted_address" : "442 Millen Rd #16, Stoney Creek, ON L8E 6H2, Canada",
+          "geometry" : {
+             "location" : {
+                "lat" : 43.235216,
+                "lng" : -79.7150288
+             },
+             "viewport" : {
+                "northeast" : {
+                   "lat" : 43.23670282989272,
+                   "lng" : -79.71429892010727
+                },
+                "southwest" : {
+                   "lat" : 43.23400317010728,
+                   "lng" : -79.71699857989272
+                }
+             }
+          },
+          "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+          "id" : "6120e96342e19cb5e486ddad0f670f05a888a735",
+          "name" : "All The Right Gears the Bicycle Specialists",
+          "opening_hours" : {
+             "open_now" : false,
+             "weekday_text" : []
+          },
+          "photos" : [
+             {
+                "height" : 2988,
+                "html_attributions" : [
+                   "\u003ca href=\"https://maps.google.com/maps/contrib/117504711414340708850/photos\"\u003eDave\u003c/a\u003e"
+                ],
+                "photo_reference" : "CmRaAAAAtTsPp5mggVATdBSTG2mn5Jx1PFE0mCxWi_7u-gyQbjhL_wXFBDf_hlwlfKjS7t4GyJn6kpQAzXQTEctxhlYma-_M5YqXYt67Ma8dyfh-CAnqoEhUmryjMNFUQznjAZQYEhBO2_15oZLPyw8FhjBgw00xGhRwojRoA0zR6IKZQPBNqfJ1gBNpiA",
+                "width" : 5312
+             }
+          ],
+          "place_id" : "ChIJbftuaT6iLIgRuOJPsDAArFw",
+          "rating" : 4.6,
+          "reference" : "CmRbAAAAcdtw7oF7KLvGUbslS4te45-TQZ00H9TwouUZIir9LS0zTbjrUcvcHN2RYH0USJP8ZBBmpc3_q80eNPnUQwCUqkY1RrEYrP5D2gWB4QIDMXOb6jgu8Wxb9qKNPeAVxGHgEhDp-zPH5_Vgr0jdu8UdjCLKGhTER2W0ySVN-Ec10NP8ahVlRNl5gg",
+          "types" : [ "bicycle_store", "store", "point_of_interest", "establishment" ]
+       },
+       {
+          "formatted_address" : "365 Wilson St E, Ancaster, ON L9G 2C1, Canada",
+          "geometry" : {
+             "location" : {
+                "lat" : 43.22753,
+                "lng" : -79.976072
+             },
+             "viewport" : {
+                "northeast" : {
+                   "lat" : 43.22886302989272,
+                   "lng" : -79.97466367010728
+                },
+                "southwest" : {
+                   "lat" : 43.22616337010728,
+                   "lng" : -79.97736332989273
+                }
+             }
+          },
+          "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+          "id" : "e22600459b0846fc14a9c57dc7ae1b8b6c0b9bba",
+          "name" : "Ancaster Cycle Ltd",
+          "opening_hours" : {
+             "open_now" : false,
+             "weekday_text" : []
+          },
+          "photos" : [
+             {
+                "height" : 3840,
+                "html_attributions" : [
+                   "\u003ca href=\"https://maps.google.com/maps/contrib/117833209498336640917/photos\"\u003eAncaster Cycle Ltd\u003c/a\u003e"
+                ],
+                "photo_reference" : "CmRaAAAANLAVS7F_3jhsQklI842Jj7IlKeqyDQt6TOwitUZ-7dkBnsFZr4hMCG8ItBrGJ8cZgr5S31Ckwiq5sXmMXMx1E2IiebIvBKML1a6RIZKaGPZ8hz5oM4UEnK0cYftO_52iEhB3oPbQit2uZG9vaSjir7HlGhRzpke5haYQT3l46GLmRVeMO1UbOg",
+                "width" : 5760
+             }
+          ],
+          "place_id" : "ChIJt91kPbCFLIgRhMeec0KHvzQ",
+          "rating" : 4.6,
+          "reference" : "CmRbAAAAO_I1RBNmq23DDJNWO3vJhrm-oF-G22Yviuy5v1DYZdNFDgUN5SxoWd_Ktah4OoOrjJW6rrfvDYwTi1OqrwXyyvtGu61p2bbUYlRm8Car7yaB-i8caNFggYkONjdELVGmEhAobEtqCgfPT_bQjpF_4DD3GhQeKW5RAt2NeJR4MFgW5EUXayL_DA",
+          "types" : [ "bicycle_store", "store", "point_of_interest", "establishment" ]
+       },
+       {
+          "formatted_address" : "314 Queenston Rd b, Hamilton, ON L8K 1H5, Canada",
+          "geometry" : {
+             "location" : {
+                "lat" : 43.233612,
+                "lng" : -79.7906
+             },
+             "viewport" : {
+                "northeast" : {
+                   "lat" : 43.23507802989272,
+                   "lng" : -79.78919087010728
+                },
+                "southwest" : {
+                   "lat" : 43.23237837010728,
+                   "lng" : -79.79189052989271
+                }
+             }
+          },
+          "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+          "id" : "512e8ef3b5642791801def13e5779a04e53f3215",
+          "name" : "Station Bmx",
+          "opening_hours" : {
+             "open_now" : false,
+             "weekday_text" : []
+          },
+          "photos" : [
+             {
+                "height" : 2760,
+                "html_attributions" : [
+                   "\u003ca href=\"https://maps.google.com/maps/contrib/108604398653982069937/photos\"\u003eStation Bmx\u003c/a\u003e"
+                ],
+                "photo_reference" : "CmRaAAAAhXm_-1VgYs271Gc2wPbbkxGPsoJ_maR6-uBH6l65AxZEVXji8sDaaslgPQsKu-JpR1ccdCw1VgJI1i3W6aGDr5BkuH9kmOmcORK7s1h3j1865xDzvjirS_p4OcDRT1t8EhABW0VJQgSZMTmbH9hMr0c_GhQXBi8PsGuFjV5kRHnztEcmJiIlDg",
+                "width" : 1835
+             }
+          ],
+          "place_id" : "ChIJNQau_xuZLIgRkfmgSplU3zo",
+          "rating" : 5,
+          "reference" : "CmRbAAAAAnDH7i2cQtlIe6qjBHburQ4WfttPIdEVOgss9hT9ll7LRTSHSLJx_8UC4LODMB7I7XwVxh1mz6lS1KUUUFP4hw6qmi6UfYF2Nb_nbcLwYSeOlTIRhS1LL5BuOBQGJC8iEhA49hiu5yyzIp4iPcYNP_4jGhSLbA_ha_Ly_wvrcGFXeQRdxeVrJw",
+          "types" : [ "bicycle_store", "store", "point_of_interest", "establishment" ]
+       },
+       {
+          "formatted_address" : "316 Dundas St E, Waterdown, ON L0R 2H0, Canada",
+          "geometry" : {
+             "location" : {
+                "lat" : 43.3339152,
+                "lng" : -79.8920564
+             },
+             "viewport" : {
+                "northeast" : {
+                   "lat" : 43.33530577989273,
+                   "lng" : -79.89077592010727
+                },
+                "southwest" : {
+                   "lat" : 43.33260612010728,
+                   "lng" : -79.89347557989272
+                }
+             }
+          },
+          "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+          "id" : "7ddb01b9e4d55d79311f2982ff749ae5a1775075",
+          "name" : "Bicycle Works",
+          "opening_hours" : {
+             "open_now" : false,
+             "weekday_text" : []
+          },
+          "photos" : [
+             {
+                "height" : 480,
+                "html_attributions" : [
+                   "\u003ca href=\"https://maps.google.com/maps/contrib/108670715518408416446/photos\"\u003eStephen Crewson\u003c/a\u003e"
+                ],
+                "photo_reference" : "CmRaAAAAh5CjOBT7XhoiIpH7508TxSnXlDRR7CzbIW9QP5895_aurVnQPkED16O0iKctJDzGFjEcLECSLFfGo23FDIdVG8IJwubTBdU3kredru1uhB6aBXWWy45qQtOO6aWe9Q_MEhAokbxLv9XP2t7yTBvIjawaGhSIwDboBTvlQW4-c2INYDTtWXyqWg",
+                "width" : 640
+             }
+          ],
+          "place_id" : "ChIJXfx_HGadLIgRSj-BvhYkv2c",
+          "rating" : 4.5,
+          "reference" : "CmRbAAAAd9xuloIYKQTbABkTyy0VBxxOHEQhnLPbzlPAONafz4kmwrRJtnkMFg9F7QGepiMXNm2NjnNQQ8hHBdQKoVsEaV1g0LrmFrXssZLgNeCTQmkR67w6hG19gx2SlMBqLlpEEhBgTVx0ObRAlByR76xnzLi7GhSpJgCk04kcWp34HhOoKwK_8Pgstg",
+          "types" : [ "bicycle_store", "store", "point_of_interest", "establishment" ]
+       },
+       {
+          "formatted_address" : "64 Hatt St, Dundas, ON L9H 7T6, Canada",
+          "geometry" : {
+             "location" : {
+                "lat" : 43.265673,
+                "lng" : -79.958253
+             },
+             "viewport" : {
+                "northeast" : {
+                   "lat" : 43.26700612989273,
+                   "lng" : -79.95691052010727
+                },
+                "southwest" : {
+                   "lat" : 43.26430647010729,
+                   "lng" : -79.95961017989272
+                }
+             }
+          },
+          "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+          "id" : "0f2a8f959467e3c361659ce36f335cf6e65efa3e",
+          "name" : "Dundas Speed Shop",
+          "opening_hours" : {
+             "open_now" : false,
+             "weekday_text" : []
+          },
+          "photos" : [
+             {
+                "height" : 487,
+                "html_attributions" : [
+                   "\u003ca href=\"https://maps.google.com/maps/contrib/110751321881261784380/photos\"\u003eDundas Speed Shop .\u003c/a\u003e"
+                ],
+                "photo_reference" : "CmRaAAAAqYGx3l-LnmLqhjG1MfYPAJgQDK23u1ArPs9RYTbyrBxrZSRIt6Kwc8NEs2XuJREwjyd7q0aMzebQKFSD9tK21OkGIPc9vDKKU612x_AaITxmiezjCQio_QxS4yFP0h1iEhD4Fj6WGY8wRy9xDQ07uOS0GhQUBsw1toQJ-WIUDZzIsF5qAujXDg",
+                "width" : 613
+             }
+          ],
+          "place_id" : "ChIJk8PGUISELIgRYtKJtxF8ZKk",
+          "rating" : 5,
+          "reference" : "CmRbAAAAeEQrpqgP9L_4-vBrs_qQuDYFh5IhDjKyO-7b_AjaMQfYk7TgXYkWTs1zmEMHfoidp_bvHoi7IqOXh4_fIOaE-E5uFoEwqYVc6FT4-Agc0-0xsOb2vwoOFRcwtP09W54aEhA4ONtP0ZqXL1LGuxYHT4nkGhTYwuYV0Wu2IC7MLKhpxI9a_oehOA",
+          "types" : [ "bicycle_store", "store", "point_of_interest", "establishment" ]
+       },
+       {
+          "formatted_address" : "9 King St W, Dundas, ON L9H 1T5, Canada",
+          "geometry" : {
+             "location" : {
+                "lat" : 43.2662226,
+                "lng" : -79.95425399999999
+             },
+             "viewport" : {
+                "northeast" : {
+                   "lat" : 43.26752517989271,
+                   "lng" : -79.95291472010727
+                },
+                "southwest" : {
+                   "lat" : 43.26482552010727,
+                   "lng" : -79.95561437989271
+                }
+             }
+          },
+          "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+          "id" : "2281e9b0a929f65130b3616b07c726c40c1c6250",
+          "name" : "Freewheel Cycle",
+          "opening_hours" : {
+             "open_now" : false,
+             "weekday_text" : []
+          },
+          "photos" : [
+             {
+                "height" : 2988,
+                "html_attributions" : [
+                   "\u003ca href=\"https://maps.google.com/maps/contrib/108877625553558444961/photos\"\u003eSammy Mak\u003c/a\u003e"
+                ],
+                "photo_reference" : "CmRaAAAA62o0UKorqt5zoodmm65DAmp20bchAU6lKvp_ap1m7exqq7VQm4sZAgRzUUgX_kg5yWbT3cvn5r_ZKBmEf_SVSB4thLNtvvbH86Kd0ydsCt5r2OA1dKw3M5oWhMHTpEnLEhDxlgwDVaFIgBUu1jNKtfXNGhQ38QCWlKQg7yjXP2ICTxLA9yAxVQ",
+                "width" : 5312
+             }
+          ],
+          "place_id" : "ChIJzfHdwISELIgRX9K0O6t4eYM",
+          "rating" : 4.3,
+          "reference" : "CmRbAAAA-2yqbC7DLf-9LRHHoui3-q0AT5vmSn8pcFsFSGHIbF0nX3UHKbWNj1pb5nKc2ku_D2dIlLpShaG_PdgFJedA2UFn902o5uPXkgvZX4d0DgrRMW1RfTsw7W7cH_sHwqqREhAegvfR7JY4ZMQtVFZ6t9M6GhQAYdXqYrYG8geffBD41riTOGe6_A",
+          "types" : [ "bicycle_store", "store", "point_of_interest", "establishment" ]
+       },
+       {
+          "formatted_address" : "861 Brock Rd, Dundas, ON L9H 5E4, Canada",
+          "geometry" : {
+             "location" : {
+                "lat" : 43.32577209999999,
+                "lng" : -80.0168436
+             },
+             "viewport" : {
+                "northeast" : {
+                   "lat" : 43.32713182989272,
+                   "lng" : -80.01543347010728
+                },
+                "southwest" : {
+                   "lat" : 43.32443217010727,
+                   "lng" : -80.01813312989273
+                }
+             }
+          },
+          "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+          "id" : "c0f9d3161121dd55d06c449e4640d51508f5e173",
+          "name" : "Hamilton Trike and 'bent",
+          "opening_hours" : {
+             "open_now" : false,
+             "weekday_text" : []
+          },
+          "photos" : [
+             {
+                "height" : 1516,
+                "html_attributions" : [
+                   "\u003ca href=\"https://maps.google.com/maps/contrib/104112448027249470202/photos\"\u003eHamilton Trike and &#39;bent\u003c/a\u003e"
+                ],
+                "photo_reference" : "CmRaAAAA5VJ_-rqYF4Ey6xi_n0ERRDE-ZGSeHsgb7KRDGEpx1ZHBIpVyS74dG9APr5e0rjT9SXW_fP1MhXvp69Ga7WVi5DeQPd_dCKHNWd-JV_o5eDCvuMmdCuGQX03yqZhdXmhpEhAt-b2eed9bHOpUJYqmg1zSGhRBpvLHcDRef_pX6aa8fRO141D7ug",
+                "width" : 2048
+             }
+          ],
+          "place_id" : "ChIJp902fI-BLIgRzen6JTpvGhQ",
+          "rating" : 4.8,
+          "reference" : "CmRbAAAAkyfS4hiefHL6xzqW1Z3q9iJbVD1CVZyPShpAUcbYny5UrxDrTrlmCbNnFk1IBDjdhgPoTZxvxP1k4qWEcqRZbYxlrAxBQauXzDdUj3LUP6qJiJymiuCWWpMa7XJinMY-EhCoT4ZT8VuvNQdiDzd-sepkGhSX0u-4BTN0OacJWGpeP-cK7lWzwQ",
+          "types" : [ "bicycle_store", "store", "point_of_interest", "establishment" ]
+       },
+       {
+          "formatted_address" : "892 Brant St, Burlington, ON L7R 2J5, Canada",
+          "geometry" : {
+             "location" : {
+                "lat" : 43.3358371,
+                "lng" : -79.81331279999999
+             },
+             "viewport" : {
+                "northeast" : {
+                   "lat" : 43.33729182989273,
+                   "lng" : -79.81183627010728
+                },
+                "southwest" : {
+                   "lat" : 43.33459217010729,
+                   "lng" : -79.81453592989271
+                }
+             }
+          },
+          "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+          "id" : "2ff6565eddcdfea1ba0e78642b7986f6cefff2a8",
+          "name" : "Brant Cycle And Sports Limited",
+          "opening_hours" : {
+             "open_now" : false,
+             "weekday_text" : []
+          },
+          "photos" : [
+             {
+                "height" : 1565,
+                "html_attributions" : [
+                   "\u003ca href=\"https://maps.google.com/maps/contrib/109545377246597472299/photos\"\u003eBrant Cycle And Sports Limited\u003c/a\u003e"
+                ],
+                "photo_reference" : "CmRZAAAAxeKdEFevxDe_fb9l-yXDyB1N3EJGPpRg4u-zmblsY1XOHs6sl9zVenQZIWXh9_WI6AmD6Z4TT9febMdN0g_U0D5OicdocyVmjcgLKtRh0c9IJm6Sn0au6OBKjTQLCoH4EhDus6cvZxu0-Nt2zf3wr37vGhQS5wFJmXt47NHhXJ7QqsKtJvXbpg",
+                "width" : 2048
+             }
+          ],
+          "place_id" : "ChIJeTXBAOJhK4gRi5YlZ0t_-Zs",
+          "rating" : 3.9,
+          "reference" : "CmRbAAAA28lyYABtWTTj1dDUQzaCCqQjJhrJ1M4vrIdizu-vtTua9qi9Q-oz_CDFje6nDgo-pUWMx7sk_JOFgIiEjqMRvoWK9jwBcJuUWYvzfBbDcdcZ_MOTqx-dhRUJ8AJCWBFKEhD2xwWR-s7hKIi8a3oR3xVIGhQV9RedD1tB_j0Xu2jRbcTfuwfmOg",
+          "types" : [ "bicycle_store", "store", "point_of_interest", "establishment" ]
+       },
+       {
+          "formatted_address" : "560 Plains Rd E, Burlington, ON L7T 2E3, Canada",
+          "geometry" : {
+             "location" : {
+                "lat" : 43.3204594,
+                "lng" : -79.8340247
+             },
+             "viewport" : {
+                "northeast" : {
+                   "lat" : 43.32189072989272,
+                   "lng" : -79.83279132010728
+                },
+                "southwest" : {
+                   "lat" : 43.31919107010728,
+                   "lng" : -79.83549097989271
+                }
+             }
+          },
+          "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+          "id" : "6541996234a6713f09faa7914908b8d0d55949e4",
+          "name" : "Neworld Cycle",
+          "opening_hours" : {
+             "open_now" : false,
+             "weekday_text" : []
+          },
+          "photos" : [
+             {
+                "height" : 720,
+                "html_attributions" : [
+                   "\u003ca href=\"https://maps.google.com/maps/contrib/101437093504690526950/photos\"\u003eNeworld Cycle\u003c/a\u003e"
+                ],
+                "photo_reference" : "CmRaAAAAOwRilP3RY4hdXhsM88mEcCUFwSGF3EhRmr9700ou0mL2iclvbruuvP7cWQ0mRd7rGqD8OCCTZqH3tn-JLR1JJrPsn8GfgdCrK2QnPFRez3UM7oxSeNNdQ-x5VV0kCXmQEhCKswTHt3xaPpq8gpAX5CEeGhQUychK_3j7T78Dqx-GGP2Mu7P1tw",
+                "width" : 960
+             }
+          ],
+          "place_id" : "ChIJfemAweCdLIgRfMsoYJ9FGTc",
+          "rating" : 3.9,
+          "reference" : "CmRbAAAA9FQj0-f-UxWDuHlNt46ULnpkSwexTLSXJX1eswA4ZnfJBiRKND3ExtQ035AaPAn5pvBQvE2Iwk744hbMlyOhsfRd07jXIADNt5D-zTE8sD25tp9jlDsTw_dI7-YRM7QJEhAYo7rvoqeQG-I90f1q1MVRGhQlvoBJNT6k_uH7AB_o47Nk7q9HjA",
+          "types" : [ "bicycle_store", "store", "point_of_interest", "establishment" ]
+       },
+       {
+          "formatted_address" : "2501 Guelph Line, Burlington, ON L7M 2A3, Canada",
+          "geometry" : {
+             "location" : {
+                "lat" : 43.3760469,
+                "lng" : -79.83632419999999
+             },
+             "viewport" : {
+                "northeast" : {
+                   "lat" : 43.37719897989271,
+                   "lng" : -79.83524177010727
+                },
+                "southwest" : {
+                   "lat" : 43.37449932010727,
+                   "lng" : -79.83794142989272
+                }
+             }
+          },
+          "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+          "id" : "ea38e1e497a9aba7f5ba932ac4a36eaa14ff0d18",
+          "name" : "Rock and Road Cycle and Sports Inc.",
+          "opening_hours" : {
+             "open_now" : false,
+             "weekday_text" : []
+          },
+          "photos" : [
+             {
+                "height" : 3036,
+                "html_attributions" : [
+                   "\u003ca href=\"https://maps.google.com/maps/contrib/104915467924048881227/photos\"\u003eMike Cable\u003c/a\u003e"
+                ],
+                "photo_reference" : "CmRaAAAA5HOLtmy1XHj8dssGbC079pPJZbkUsGeGwXKGPewS9nISEQHZN5YDaeBI_gmQst59EdtcUxeaHKjmOuNpa65ATfuVcupyojq2MNyb_ftiumuCo_Fd4t7DUNh6XFyucl12EhB227HmgTkYu9nBB5cgwRcDGhT2jxKEYCRcsssD3-yoA1MEYlwPOQ",
+                "width" : 4048
+             }
+          ],
+          "place_id" : "ChIJEcdrlixiK4gRAPWnkJXAC-o",
+          "rating" : 4.9,
+          "reference" : "CmRbAAAAaC8wETixQHaIg2Q-i8DwO8m38NNMw_mSeZx3-5SB2O9l3l4yu0KKeEVXpvJQDrlUpWCKNfqPJ-n3PGbZP1vr7eieY8t8BYUzum-POKx6B4CQjNa0UJZCvkFveemDWzKAEhD9D5XASSBkr_6xlRGqw7_kGhSwjqXLLAhrnIN_v82fUnAZSMKVgw",
+          "types" : [ "bicycle_store", "store", "point_of_interest", "establishment" ]
+       },
+       {
+          "formatted_address" : "202 Dundurn St S, Hamilton, ON L8P 4K3, Canada",
+          "geometry" : {
+             "location" : {
+                "lat" : 43.2560514,
+                "lng" : -79.8907797
+             },
+             "viewport" : {
+                "northeast" : {
+                   "lat" : 43.25737807989272,
+                   "lng" : -79.88933087010727
+                },
+                "southwest" : {
+                   "lat" : 43.25467842010728,
+                   "lng" : -79.89203052989272
+                }
+             }
+          },
+          "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+          "id" : "a13cc7562fce7645e8ad2fff67537f5b5d68eea6",
+          "name" : "Bike Locke",
+          "opening_hours" : {
+             "open_now" : false,
+             "weekday_text" : []
+          },
+          "photos" : [
+             {
+                "height" : 1456,
+                "html_attributions" : [
+                   "\u003ca href=\"https://maps.google.com/maps/contrib/113895175487970898878/photos\"\u003eBike Locke\u003c/a\u003e"
+                ],
+                "photo_reference" : "CmRaAAAAjHpYWYBPBA98JJ4gMVYxxiBJ6sPoEwBHnlOBaGWsHt-2ZFd-r0ER-T7cdYcD2BfN0od1y7_fnawAbdiXbJZ4Gwnu5V8OX9hfidoRt5L9hr8bZeFvb6ZSf2q2jBbq4nRVEhDN39ncqGlgzylEUAYFFQ1GGhS0d3pLe8hYR_DvgRILoamkDZ8IDw",
+                "width" : 2592
+             }
+          ],
+          "place_id" : "ChIJLZQiPG6bLIgRX5RcqVppe5Y",
+          "rating" : 5,
+          "reference" : "CmRbAAAAG3wYYyoi5qOpKKzmz42jTrbOLRity4EVtkQY_y_RQPDZ8-Y2frd-Z-NFefx64YAPcXs2uNqA8TaXfHmN8Cor2cYbK9FO4H8g4hDVQytKmcX03A1Ryz-7hC5odyrBwXlCEhB_e94AtKQcA9_tZutOYRpRGhREJ8siTVGX7hEgBMi_HxlK9N7TzA",
+          "types" : [ "point_of_interest", "establishment" ]
+       },
+       {
+          "formatted_address" : "813 Brant St, Burlington, ON L7R 2J4, Canada",
+          "geometry" : {
+             "location" : {
+                "lat" : 43.3345741,
+                "lng" : -79.8102159
+             },
+             "viewport" : {
+                "northeast" : {
+                   "lat" : 43.33580982989272,
+                   "lng" : -79.80902062010728
+                },
+                "southwest" : {
+                   "lat" : 43.33311017010728,
+                   "lng" : -79.81172027989273
+                }
+             }
+          },
+          "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+          "id" : "2e197acd3845b129104ecb588cacde529f794780",
+          "name" : "Action Bikes",
+          "opening_hours" : {
+             "open_now" : false,
+             "weekday_text" : []
+          },
+          "photos" : [
+             {
+                "height" : 1153,
+                "html_attributions" : [
+                   "\u003ca href=\"https://maps.google.com/maps/contrib/104176456151144391176/photos\"\u003eAction Bikes\u003c/a\u003e"
+                ],
+                "photo_reference" : "CmRaAAAA5pK4gvOR_njSUmkHwvnH1L5g58-ifFE4GI_4MZpkARvN9DXVC3nblsSVr5h_OVNLMMse42Qd1gIpeI1k9sXOOG3VEeGUMO88CbxFppUtLW_2WmJBbj3LXZh5nS7kOSJdEhDbrtHxUf2txEvR7U6zlWjQGhQrLdRS6Lo3ArSW5ksSjSFVmsVP2g",
+                "width" : 2048
+             }
+          ],
+          "place_id" : "ChIJQRncTR6eLIgRmheVs-pEykc",
+          "rating" : 3.7,
+          "reference" : "CmRbAAAAGDCHxPsZwT-o-cEUFqnUmt4CZEHuyB_pUh_wh33ts6_S76Ifqac7BYYNwgeMHahghkNpVgxSYGeI3WeVxofcKiGpRPHk9h1jPpDPjTOSsI2oqk8vovWuzVUA8ExLThdLEhDeOH8JAzhxltfiUCHFec9cGhQydi3qlZJQGo4bg652PhUGdkU48w",
+          "types" : [ "bicycle_store", "store", "point_of_interest", "establishment" ]
+       },
+       {
+          "formatted_address" : "816 Miriam Crescent, Burlington, ON L7S 2B9, Canada",
+          "geometry" : {
+             "location" : {
+                "lat" : 43.3295775,
+                "lng" : -79.8151682
+             },
+             "viewport" : {
+                "northeast" : {
+                   "lat" : 43.33087672989272,
+                   "lng" : -79.81371122010728
+                },
+                "southwest" : {
+                   "lat" : 43.32817707010727,
+                   "lng" : -79.81641087989271
+                }
+             }
+          },
+          "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+          "id" : "730ab20431eea6191e4327865217eb94f84d93bf",
+          "name" : "Bent Rim Cycle",
+          "opening_hours" : {
+             "open_now" : true,
+             "weekday_text" : []
+          },
+          "photos" : [
+             {
+                "height" : 607,
+                "html_attributions" : [
+                   "\u003ca href=\"https://maps.google.com/maps/contrib/104542369117794031545/photos\"\u003eBent Rim Cycle\u003c/a\u003e"
+                ],
+                "photo_reference" : "CmRaAAAAzAtgUMzjTBO3zrLhkBkcIfKmnB8wdiSBFEp6GLlOpwF5qs4EKckRl7V7GhM_xoq5qhpNK-SkARV6QzMXgK-60mDa7Vg5k2uqATFLESm7ebxdOBgkkfBFWTLno234TeWtEhBEklZAQ2NlvEcltpAXioTkGhSejCAVgZQMWVJojk1JC115VeZa3w",
+                "width" : 1080
+             }
+          ],
+          "place_id" : "ChIJZUCPrhueLIgRoXhXlN1ytWM",
+          "rating" : 5,
+          "reference" : "CmRbAAAA7KyHwZDVuP0zLgGpe-iCPYVXKYPqbLiGS-VsGLnETZr3MjOWmaF4yIbGqas1XD2gVGoFT8H8YEiwE-YWWq0CCsDZZ9wIw0TQanUhFtR3Uwc1Mr0f7SuahgiSC5c2LlrTEhBkdC2qxVSOBGKQPi0-T4bPGhTwvmiUm1Dpf-S0efTOqzetLIwGJQ",
+          "types" : [ "bicycle_store", "store", "point_of_interest", "establishment" ]
+       }
+    ],
+    "status" : "OK"
+ }
