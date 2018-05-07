@@ -82,13 +82,13 @@
         var markers = [];
 
                 // Adds a marker to an array.
-        function addMarkerToArray(location, map, title, array = [], label, infoDiv) {
+        function addMarkerToArray(location, map, title, array = [], infoDiv, label) {
           // Add the marker at the clicked location, and add the next-available label
           // from the array of alphabetical characters.
           var marker = new google.maps.Marker({
             position: location,
             title: title,
-            label: label
+            icon: label
           });
           var infoWindow = new google.maps.InfoWindow({
             content: infoDiv
@@ -223,7 +223,7 @@
               .then(function(data) {
                 data.forEach(element => {
                   var content = `<p><span class='font-weight-bold'>${element.NAME}</span><br />Fix-It Station</p>`;
-                  addMarkerToArray({lat: element.LATITUDE, lng: element.LONGITUDE}, map, element.NAME, fixit, wrenchIcon, content);
+                  addMarkerToArray({lat: element.LATITUDE, lng: element.LONGITUDE}, map, element.NAME, fixit, content, wrenchIcon);
                 });
               });
           
@@ -233,7 +233,7 @@
                 var storeData = data.results;
                 storeData.forEach(store => {
                   var content = `<p><span class='font-weight-bold'>${store.name}</span><br />${store.formatted_address}</p>`;
-                  addMarkerToArray(store.geometry.location, map, store.name, stores, 'https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png', content);
+                  addMarkerToArray(store.geometry.location, map, store.name, stores, content);
                 })
               });
         };
